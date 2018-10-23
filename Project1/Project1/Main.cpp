@@ -9,7 +9,12 @@ int main()
 	cout << "ff";
 	Tree t;
 	t.createRoot();
-	t.findQustion();
+	//t.findQustion();
+	t.addDecision();
+	t.addDecision();
+	t.addDecision();
+	//if (t.addDecision()) cout << "good"; else cout << "bad";
+	system("pause");
 	/*Tree t;
 	string father, val, sol;
 	char ch;

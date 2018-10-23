@@ -7,5 +7,5 @@ class optionAns {
 public:
 	string ans;
 	DecisionTreeNode* son;
-	optionAns(string answer) { this->ans = answer; }
+	optionAns(string answer, DecisionTreeNode* leaf) { this->ans = answer; this->son = leaf; }
 };

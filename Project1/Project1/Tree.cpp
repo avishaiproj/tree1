@@ -19,3 +19,9 @@ DecisionTreeNode * Tree::findQustion()
 	std::cin >> temp;
 	return nullptr;
 }
+
+bool Tree::addDecision()
+{
+	if(son->addQ())return true;
+	return false;
+}

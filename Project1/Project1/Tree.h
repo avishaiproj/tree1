@@ -13,7 +13,7 @@ public:
 	//~tree()
 	void createRoot();
 	DecisionTreeNode* findQustion();
-	//bool addDecision();
+	bool addDecision();
 	//void print();
 };
 
